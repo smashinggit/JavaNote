@@ -30,9 +30,14 @@ public class StackBaseLinkedList<T> {
         System.out.println("peek " + stack.peek());
     }
 
-    //头结点
+    /**
+     * 头结点
+     */
     private Node head;
-    //数据长度
+
+    /**
+     * 数据长度
+     */
     private int length;
 
     public StackBaseLinkedList() {
