@@ -136,12 +136,11 @@ public class BubbleSort {
                 }
                 compareCount++;
             }
-//            System.out.println("第" + (i + 1) + "次排序共比较" + compareCount + "次，排序后");
             printAll(array);
 
             //没有数据交换，提前退出
             if (!flag) {
-//                System.out.println("没有数据交换，提前退出");
+                System.out.println("没有数据交换，提前退出");
                 break;
             }
         }

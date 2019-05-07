@@ -1,4 +1,5 @@
 rootProject.name = 'JavaNote'
 include 'JavaBase'
 include 'StructureAndAlgorithms'
+include 'Design'
 
